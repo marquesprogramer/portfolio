@@ -15,5 +15,16 @@
   --ff-asap: "Asap", sans-serif;
   --ff-inconsolata: "Inconsolata", monospace;
   --ff-maven: "Maven Pro", sans-serif;
+}
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  max-width: 1336px;
+  padding-inline: 163px;
+  margin-inline: auto;
 }
