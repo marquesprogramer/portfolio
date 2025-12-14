@@ -1,0 +1,57 @@
+.info{
+  background-image: url(../assets/image/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  & .container{
+    padding-block: 120px 183px;
+    text-align: center;
+  
+    & .user{
+      max-width: 680px;
+      margin: 0 auto;
+
+      & .detail {
+        margin-top: 56px;
+
+        &span{
+        color: var(--red);
+        }  
+      }
+
+      & .profession{
+        margin-top: 8px;
+        }
+
+      & .description{
+        margin-top: 20px;
+      }
+    }
+
+    & .skills {
+      margin-top: 80px;
+    
+      & ul{
+        justify-content: center;
+        gap: 1rem;
+          
+      & li{
+        width: 144px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        color: var(--gray-200);
+        background-color: var(--gray-400);
+        padding: .5rem 1rem;
+        border-radius: 999rem; 
+        }  
+      }
+    }
+    
+    & .btn-icon img{
+      margin-top: 94px;
+    }
+   } 
+}
