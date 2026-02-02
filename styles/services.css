@@ -1,0 +1,24 @@
+.services {
+  padding-block: 88px 120px;
+  background-color: var(--gray-600);
+
+  & .boxes {
+    margin-top: 3.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-self: center;
+
+    & .box {
+      width: 280px;
+      padding: 1.25rem;
+      border: 1.5px solid var(--gray-500);
+      border-radius: .75rem;
+
+      & h3{
+        margin-top: 1.25rem;
+        margin-bottom: .5rem;
+      }
+    }
+  }
+
+}
