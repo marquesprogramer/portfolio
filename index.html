@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="styles/index.css">
   <title>Portfólio</title>
 </head>
+
 <body>
 
   <main>
-    
+
     <section class="info">
 
       <div class="container">
@@ -21,15 +25,17 @@
         <div class="user">
 
           <div class="avatar">
-            <img src="assets/image/User.svg" alt="Minha foto">
-            <img src="assets/icons/Code.svg" alt="">
+            <img class="avatar-user" src="assets/image/User.svg" alt="Minha foto">
+            <img class="avatar-icon" src="assets/icons/Code.svg" alt="">
           </div>
 
           <p class="detail subtitle">Hello World! Meu nome é <span>Martina Santos</span> e sou</p>
 
           <h1 class="profession title title-lg">Desenvolvedora Fullstack</h1>
 
-          <p class="description text text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+          <p class="description text text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais.
+            Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes
+            para desafios complexos.</p>
         </div>
 
         <div class="skills">
@@ -43,12 +49,62 @@
           </ul>
         </div>
 
-        <a href="" class="btn-icon"><img src="assets/icons/CaretDoubleDown.svg" alt="Seta apontando para baixo"></a>
+        <a href="#works" class="btn-icon"><img src="assets/icons/CaretDoubleDown.svg"
+            alt="Seta apontando para baixo"></a>
 
       </div>
 
     </section>
 
+    <section class="works" id="works">
+      <div class="container">
+        <div class="header">
+          <p class="subtitle"><span>Meu trabalho</span></p>
+          <h2 class="title title-md">Veja os projetos em destaque</h2>
+        </div>
+
+        <div class="cards grid">
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-01.png" alt="">
+            <h3 class="title title-sm">Travelgram</h3>
+            <p class="text text-sm">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+          </div>
+          
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-02.png" alt="">
+            <h3 class="title title-sm">Tech News</h3>
+            <p class="text text-sm">Homepage de um portal de notícias sobre a área de tecnologia</p>
+          </div>
+
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-03.png" alt="">
+            <h3 class="title title-sm">Página de receita</h3>
+            <p class="text text-sm">Página com o passo a passo de uma receita para cupcakes</p>
+          </div>
+
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-04.png" alt="">
+            <h3 class="title title-sm">Zingen</h3>
+            <p class="text text-sm">Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+          </div>
+
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-05.png" alt="">
+            <h3 class="title title-sm">Refund</h3>
+            <p class="text text-sm">Um sistema para pedido e acompanhamento de reembolso </p>
+          </div>
+
+          <div class="card">
+            <img src="assets/image/Thumbnail_Project-06.png" alt="">
+            <h3 class="title title-sm">Página de turismo</h3>
+            <p class="text text-sm">Página com as principais informações para quem quer viajar para Busan</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 </body>
+
 </html>

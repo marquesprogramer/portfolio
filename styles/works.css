@@ -1,0 +1,33 @@
+.works {
+
+  & .container {
+    padding-block: 72px 144px;
+
+    & .title {
+      margin-top: .5rem;
+    }
+
+    .cards {
+      margin-top: 3.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+
+      & .card {
+        background-color: var(--gray-400);
+        border-radius: .75rem;
+        padding: .75rem;
+
+        & img {
+          width: 100%;
+          object-fit: contain;
+          border-radius: .75rem;
+        }
+
+        & h3 {
+          margin-top: 1.25rem;
+          margin-bottom: .5rem;
+        }
+      }
+    }
+  }
+}

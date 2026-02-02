@@ -26,11 +26,7 @@
       }
 
       & .detail {
-        margin-top: 56px;
-
-        &span{
-        color: var(--red);
-        }  
+        margin-top: 56px; 
       }
 
       & .profession{

@@ -21,7 +21,12 @@
   font-family: var(--ff-inconsolata);
   line-height: 120%;
   font-weight: 400;
+  font-size: 1.25;
   color: var(--gray-200);
+}
+
+.subtitle > span{
+  color: var(--red);
 }
 
 .text{
@@ -49,4 +54,11 @@
 
 .justify-center{
   justify-content: center;
+}
+
+.header{
+  text-align: center;
+}
+.grid{
+  display: grid;
 }

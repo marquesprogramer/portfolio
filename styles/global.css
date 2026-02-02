@@ -24,8 +24,7 @@
 }
 
 html{
-  max-width: 1336px;
-  margin-inline: auto;
+  max-width: 1366px;
   background-color: var(--gray-500);
 }
 
