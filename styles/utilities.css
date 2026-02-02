@@ -58,7 +58,12 @@
 
 .header{
   text-align: center;
+
+  & h2{
+    margin-top: .5rem;
+  }
 }
+
 .grid{
   display: grid;
 }
