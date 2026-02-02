@@ -1,0 +1,29 @@
+.contact{
+  width: 100%;
+  background-image: url(../assets/image/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .container{
+    padding-block: 128px 200px;
+    
+    & .social-media{
+      margin-top: 3rem;
+      flex-direction: column;
+      gap: 1rem;
+
+      & .media{
+        width: 400px;
+        background-color: var(--gray-400);
+        border-radius: .75rem;
+        padding: 1.25rem;
+
+        justify-content: space-between;
+
+        & .icon-media{
+          gap: .75rem;
+        }
+      }
+    }
+  }
+}
