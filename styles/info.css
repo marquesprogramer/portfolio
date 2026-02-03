@@ -56,7 +56,33 @@
         background-color: var(--gray-400);
         padding: .5rem 1rem;
         border-radius: 999rem; 
+
+        & .icon-github{
+          color: var(--gray-200);
+        }
+
+        & .icon-html{
+          color: var(--red);
+        }
+
+        & .icon-css{
+          color: var(--blue);
+        }
+
+        & .icon-javascript{
+          color: var(--yellow)
+        }
+
+        & .icon-react{
+          color: var(--blue);
+        }
+
+        & .icon-node{
+          color: var(--green);
+        }
+
         }  
+        
       }
     }
     
